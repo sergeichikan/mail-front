@@ -1,0 +1,9 @@
+{
+  "mode": "file",
+  "out": "static/docs",
+  "module": "CommonJS",
+  "ignoreCompilerErrors": true,
+  "inputFiles": [
+    "../mail/src"
+  ]
+}

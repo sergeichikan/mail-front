@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="index.css" >
+</head>
+<body>
+
+<div id="container">
+    <div id="row1">
+        <div>
+            <datalist id="hostDatalist">
+                <option value="127.0.0.1">
+                <option value="localhost">
+                <option value="81.95.131.50">
+                <option value="194.1.236.165">
+            </datalist>
+            <input id="hostInput" value="127.0.0.1" list="hostDatalist">
+            <input id="portInput" value="3000">
+        </div>
+        <button id="lsButton">ls</button>
+        <select id="lsSelect">
+            <option>log.log</option>
+        </select>
+        <button id="getButton">get</button>
+    </div>
+    <textarea id="logTextarea"></textarea>
+    <textarea id="errorTextarea"></textarea>
+</div>
+
+<script type="module" src="index.js"></script>
+
+</body>
+</html>
