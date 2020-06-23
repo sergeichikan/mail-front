@@ -1,4 +1,4 @@
-import { getUrl } from "./get-url";
+import { getUrl } from "./get-url.js";
 
 const lsSelect = document.querySelector<HTMLSelectElement>("#lsSelect");
 const lsButton = document.querySelector<HTMLButtonElement>("#lsButton");

@@ -5,12 +5,13 @@
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "scripts": {
-    "typedoc": "./node_modules/typedoc/bin/typedoc"
+    "typedoc": "./node_modules/typedoc/bin/typedoc ../mail/src"
   },
   "repository": "github:sergeichikan/mail-front",
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {},
   "devDependencies": {
     "typedoc": "^0.17.7",
     "typescript": "^3.9.5"
