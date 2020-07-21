@@ -1,6 +1,6 @@
 {
   "mode": "file",
-  "out": "static/docs",
+  "out": "static/docs/file",
   "module": "CommonJS",
   "ignoreCompilerErrors": true
 }

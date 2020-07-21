@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "scripts": {
-    "typedoc": "./node_modules/typedoc/bin/typedoc ../mail/src"
+    "typedoc": "./node_modules/typedoc/bin/typedoc ../mail/src",
+    "typedoc-modules": "./node_modules/typedoc/bin/typedoc --mode modules --out static/docs/modules ../mail/src"
   },
   "repository": "github:sergeichikan/mail-front",
   "keywords": [],
